@@ -1,4 +1,5 @@
 import Navbar from "../screens/Navbar";
+import CodeEnd from "../assets/CodeEnd";
 
 const PageLayout = ({children}) => {
     return (
@@ -8,7 +9,7 @@ const PageLayout = ({children}) => {
                 {children}
             </main>
             <footer>
-                <p>aca va un icono</p>
+                < CodeEnd />
                 <p> © 2023 - Diseñado y creado por David Lezcano</p>
             </footer>
         </>
