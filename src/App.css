@@ -1,7 +1,6 @@
 * {
     min-width: 0;
     font: inherit;
-    border-color: red;
 }
 
 *,
@@ -21,6 +20,7 @@ svg {
 body {
     margin: 0;
     min-height: 100dvh;
+    font: var(font-family);
 }
 
 h1,

@@ -13,12 +13,12 @@ const links = [
 const Navbar = () => {
     return (
         <header>
-            <section className="logo">
+            <section className="header_logo">
                 < Database />
                 <h1 className="logo_title">David Lezcano</h1>
                 < Code />
             </section>
-            <button></button>
+            <button className="header_menu"></button>
             <nav className="menu_list">
                 {links.map(link => (
                     <a
