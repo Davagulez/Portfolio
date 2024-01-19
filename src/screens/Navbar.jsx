@@ -1,5 +1,6 @@
 import Code from "../assets/Code";
 import Database from "../assets/Database";
+import './Navbar.css'
 
 const links = [
     'Inicio',
@@ -12,23 +13,21 @@ const links = [
 const Navbar = () => {
     return (
         <header>
-            <section>
+            <section className="logo">
                 < Database />
-                <h1>David Lezcano</h1>
+                <h1 className="logo_title">David Lezcano</h1>
                 < Code />
             </section>
             <button></button>
-            <div>
-                <nav>
-                    {links.map(link => (
-                        <a 
+            <nav className="menu_list">
+                {links.map(link => (
+                    <a
                         key={link}
                         href="">
-                            {link}
-                        </a>
-                    ))}
-                </nav>
-            </div>
+                        {link}
+                    </a>
+                ))}
+            </nav>
         </header>
     )
 }
